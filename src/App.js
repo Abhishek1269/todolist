@@ -19,8 +19,9 @@ function App() {
   return (
     <div className='main'>
       <div className='center'>
+        <h1 className='main-heading'>TODO List</h1>
         <TODOform addTask ={addTask}/>
-        <h1 className='heading'>TODO</h1>
+        <h1 className='heading'>Upcoming Task</h1>
         <hr/>
         {listTo.map((listItem, i) =>{
           return(
